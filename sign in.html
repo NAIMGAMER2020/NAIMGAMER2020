@@ -1,0 +1,35 @@
+<!DocType html>
+<html>
+<head>
+<title>please sign in</title>
+<style>
+div {
+	margin-bottom: 5px;
+	}
+	label {
+	display: left;
+	width 150px;
+	text-align: right;
+	font-weight: bold;
+	margin-right: 160px;
+	}
+	input.submit {
+		margin-left: 160px;
+		}
+		</style>
+</head>
+<body>
+<h1>Please sign in</h1>
+<form action="/form-processing-script" method="post">
+<div>
+<label for="username">Username</label> <input type="text" name="username">
+</div>
+<div>
+<label for="password">Password</label> <input type="password"name="password">
+</div>
+<div>
+	<input type="submit" class="submit" value="log in">
+	</div>
+</form>
+</body>
+</html>
